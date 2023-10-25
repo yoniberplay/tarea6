@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tarea6"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-13:15
+12        <intent>
+12-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+13            <action android:name="android.support.customtabs.action.CustomTabsService" />
+13-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+13-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+14        </intent>
+15    </queries>
+16
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\yonib\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+17-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\yonib\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+18
+19    <application
+20        android:name="android.app.Application"
+20-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:4:9-42
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\yonib\.gradle\caches\transforms-3\2fa18b2f544a798470f6ba6d29f55f60\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:5:9-43
+23        android:label="tarea6" >
+23-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:3:9-31
+24        <activity
+24-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:6:9-26:20
+25            android:name="com.example.tarea6.MainActivity"
+25-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:7:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:11:13-163
+27            android:exported="true"
+27-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:8:13-36
+28            android:hardwareAccelerated="true"
+28-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:12:13-47
+29            android:launchMode="singleTop"
+29-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:9:13-43
+30            android:theme="@style/LaunchTheme"
+30-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:10:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:13:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:18:13-21:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:19:15-70
+41                android:resource="@style/NormalTheme" />
+41-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:20:15-52
+42
+43            <intent-filter>
+43-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:22:13-25:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:23:17-68
+44-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:23:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:24:17-76
+46-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:24:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:29:9-31:33
+54            android:name="flutterEmbedding"
+54-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:30:13-44
+55            android:value="2" />
+55-->C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\android\app\src\main\AndroidManifest.xml:31:13-30
+56
+57        <activity
+57-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+58            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+58-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+59-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+60            android:exported="false"
+60-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+61            android:theme="@style/AppTheme" />
+61-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+62        <activity
+62-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+63            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+63-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+64            android:exported="false"
+64-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+65            android:theme="@style/ThemeTransparent" />
+65-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+66        <activity
+66-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+67            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+67-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+68            android:exported="false"
+68-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+69            android:theme="@style/ThemeTransparent" />
+69-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+70        <activity
+70-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+71            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+71-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+72            android:exported="false"
+72-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+73            android:launchMode="singleInstance"
+73-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+74            android:theme="@style/ThemeTransparent" />
+74-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+75        <activity
+75-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+76            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+76-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+77            android:exported="false"
+77-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+78            android:launchMode="singleInstance"
+78-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+79            android:theme="@style/ThemeTransparent" />
+79-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+80
+81        <receiver
+81-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+82            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+82-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+83            android:enabled="true"
+83-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+84            android:exported="false" />
+84-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+85
+86        <meta-data
+86-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+87            android:name="io.flutter.embedded_views_preview"
+87-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+88            android:value="true" />
+88-->[:flutter_inappwebview] C:\Users\yonib\Desktop\PlataformaItla\8cuatrimestre\app moviles\tarea6\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\yonib\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.example.tarea6.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonib\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yonib\.gradle\caches\transforms-3\8c1e738388b632b23acecc5b0cf3e292\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yonib\.gradle\caches\transforms-3\8c1e738388b632b23acecc5b0cf3e292\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yonib\.gradle\caches\transforms-3\8c1e738388b632b23acecc5b0cf3e292\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>
